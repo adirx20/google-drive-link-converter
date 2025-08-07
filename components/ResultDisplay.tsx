@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { ClipboardIcon, CheckIcon } from './icons';
+import { ClipboardIcon, CheckIcon } from './icons.tsx';
 
 interface ResultDisplayProps {
   url: string;

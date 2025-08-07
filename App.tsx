@@ -1,9 +1,9 @@
 
 import React, { useState, useEffect } from 'react';
-import { MediaType } from './types';
-import UrlInput from './components/UrlInput';
-import MediaTypeSelector from './components/MediaTypeSelector';
-import ResultDisplay from './components/ResultDisplay';
+import { MediaType } from './types.ts';
+import UrlInput from './components/UrlInput.tsx';
+import MediaTypeSelector from './components/MediaTypeSelector.tsx';
+import ResultDisplay from './components/ResultDisplay.tsx';
 
 const App: React.FC = () => {
   const [inputUrl, setInputUrl] = useState('');

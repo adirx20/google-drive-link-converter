@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { MediaType } from '../types';
+import { MediaType } from '../types.ts';
 
 interface MediaTypeSelectorProps {
   selectedType: MediaType;
